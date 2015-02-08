@@ -1,5 +1,5 @@
 #!/usr/bin/env python
-modules=["tools","decode","decode_beam","epicsalign","makecut"]
+modules=["tools","decode","decode_beam","epicsalign","makecut","roottools"]
 for m in modules:
     try:
 	exec("from %s import *"%m)
